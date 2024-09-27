@@ -113,8 +113,3 @@ In the middle we will construct a Lambda function, which is a straightforward Py
 
 Lastly, the method we will use to execute the Lambda function is a new endpoint that we will create using API Gateway. This endpoint will be a url that listens for data to be sent to it. Once it gets some data it will pass that data on to the Lambda function and then return whatever the Lambda function returns. Essentially it will act as an interface that lets our web app communicate with the Lambda function.
 
-
-## H) Instructions
-Everything has been explained and summarized in the Python Notebook.  
-I have made an Android App - [Salveo](https://github.com/reallyinvincible/Salveo) that goes with this model.
-<br>
